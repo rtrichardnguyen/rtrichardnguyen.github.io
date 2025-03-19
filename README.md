@@ -1,49 +1,39 @@
-# birthday
+## 🎉 Birthday Greeting Webpage 
 
-[![gh-pages](https://github.com/YunYouJun/birthday/workflows/gh-pages/badge.svg)](https://github.com/YunYouJun/birthday/actions)
+[Demo](https://fajarghifar.github.io/happybirthday/)
 
-[Happy Birthday To You!](https://birthday.yunyoujun.cn)
+## 🚀 How to Use
 
-## Use
+1.  **Clone Repository**
 
-If you in <https://yunyoujun.github.io/birthday/?name=World&msg=Hello>, then you can see in this page.
+    ```bash
+    # Clone this repository or download it
+    $ git clone https://github.com/fajarghifar/happybirthday
 
-```txt
-World
-Hello
-```
+    # Go into the repository
+    $ cd happybirthday
 
-| Prop | Type   | Description           | Default         |
-| ---- | ------ | --------------------- | --------------- |
-| name | String | who you want to greet | null            |
-| msg  | String | what you want to say  | Happy Birthday! |
+    # Open it with your text editor
+    $ code .
+    ```
 
-### Setup
+2. **Open with Live Server**
 
-```sh
-yarn
-# npm run install
-```
+    Your site is now running!
 
-### Build
+3. **Deployment**
 
-```sh
-yarn build
-# npm run build
-```
+    To make your site online, you can enable GitHub Pages for the repository (Settings -> Pages). Alternatively, you can use [Netlify](https://www.netlify.com/).
 
-### View
+## 📝 Contributing
 
-```sh
-# http://localhost:8080
-yarn serve
-# npm run serve
-```
+If you have any ideas to make it more interesting, please submit a pull request or create an issue for a feature request.
 
-## Reference
+## 🤝 License
 
-[Codepen-Cake](https://codepen.io/fixcl/pen/nKFDr)
+### [MIT](LICENSE)
 
-## Change Log
-
-- 2019.01.08 | Use vue rewrite
+> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
+> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
+> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
+> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
