@@ -1,39 +1,61 @@
-## 🎉 Birthday Greeting Webpage 
+# Will You Be My Valentine? 
 
-[Demo](https://fajarghifar.github.io/happybirthday/)
+This project is designed to be an interactive webpage to ask someone to be your Valentine. Please use this code as inspiration.
+---
+## Respect Open-Source
+I built this for **fun & learning**. If you fork or modify it:  
+✔ **Use it for creativity, personal projects, or learning**  
+✔ **Give proper credit when using it in public**  
+✔ **Respect the original creator’s work**  
+ 
 
-## 🚀 How to Use
 
-1.  **Clone Repository**
 
-    ```bash
-    # Clone this repository or download it
-    $ git clone https://github.com/fajarghifar/happybirthday
 
-    # Go into the repository
-    $ cd happybirthday
+## How It Works 
 
-    # Open it with your text editor
-    $ code .
-    ```
+This project consists of a simple webpage with a "Yes" and "No" button. When the user clicks the "No" button, the button text changes to a series of  messages, and the "Yes" button grows larger. If the user clicks the "Yes" button, they are redirected to a new page (`yes_page.html`).
 
-2. **Open with Live Server**
+### Features:
+- **Interactive Buttons**: The "No" button cycles through , while the "Yes" button grows in size.
+- **Responsive Design**: The webpage is designed to work on all screen sizes.
 
-    Your site is now running!
+---
 
-3. **Deployment**
+## How to Use 
 
-    To make your site online, you can enable GitHub Pages for the repository (Settings -> Pages). Alternatively, you can use [Netlify](https://www.netlify.com/).
+1. **Download the Files**:
+   - Clone this repository or download the `index.html`, `styles.css`,`yes_style.css`,`yes_page.html` and `script.js` files.
 
-## 📝 Contributing
+2. **Open the Project**:
+   - Open the `index.html` file in your web browser.
 
-If you have any ideas to make it more interesting, please submit a pull request or create an issue for a feature request.
 
-## 🤝 License
+---
 
-### [MIT](LICENSE)
 
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
+## Code Overview 
+
+### Files:
+
+- `index.html`: The main HTML file that structures the webpage.
+- `styles.css`: The CSS file that styles the webpage.
+- `script.js`: The JavaScript file that handles the button interactions.
+- `yes_page.html`: The yes page that sturctures the webpage.
+- `yes_style.css`: The css file that styles the yes webpage.
+
+
+
+### Key Functions:
+
+- `handleNoClick()`: Changes the "No" button text and increases the size of the "Yes" button.
+- `handleYesClick()`: Redirects the user to `yes_page.html`.
+
+---
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
